@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="./stayle.css">
+    <div class="container">
+        <h1>Random IP Info</h1>
+        <div class="info" id="ip-info">Click the button to get a random IP</div>
+        <button onclick="fetchRandomIP()">Generate Random IP</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214621.18829239436!2d69.1145592098066!3d41.28273794592405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e1!3m2!1sru!2s!4v1741530859300!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="map"></div>
+    </div>
+    <script src="./script.js"></script>
